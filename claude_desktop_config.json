@@ -1,9 +1,9 @@
 {
   "mcpServers": {
     "timecount-Employees": {
-      "command": "/Users/omarhawas/AI-Workshop/Timecount/.venv/bin/python",
+      "command": "C:/Users/Ifrah/AI-Workshop-Farah/Timecount/Server_Employees.py",
       "args": [
-        "/Users/omarhawas/AI-Workshop/Timecount/Server_Employees.py",
+        "C:/Users/Ifrah/AI-Workshop-Farah/Timecount/Server_Employees.py",
         "run"
       ]
     },
@@ -18,30 +18,22 @@
       }
     },
     "weather": {
-      "command": "/Users/omarhawas/.local/bin/uv",
+      "command": "C:/Users/Ifrah/AI-Workshop-Farah/weather/uv.lock",
       "args": [
         "--directory",
-        "/Users/omarhawas/AI-Workshop/weather",
+        "C:/Users/Ifrah/AI-Workshop-Farah/weather",
         "run",
         "weather.py"
       ]
     },
-    "server-gmail-autoauth-mcp": {
-      "command": "npx",
+    "gmail": {
+      "command": "node",
       "args": [
-        "-y",
-        "@gongrzhe/server-gmail-autoauth-mcp"
+        "C:/Users/Ifrah/AI-Workshop-Farah/Server_Gmail.js"
       ],
       "env": {
-        "GMAIL_MCP_CREDENTIALS_PATH": "/Users/omarhawas/.gmail-mcp/gcp-oauth.keys.json",
-        "GMAIL_MCP_TOKEN_PATH": "/Users/omarhawas/.gmail-mcp/credentials.json"
+        "GMAIL_OAUTH_PATH": "C:/Users/Ifrah/.gmail-mcp/gcp-oauth.keys.json"
       }
     }
-  },
-  "preferences": {
-    "coworkScheduledTasksEnabled": true,
-    "ccdScheduledTasksEnabled": true,
-    "sidebarMode": "chat",
-    "coworkWebSearchEnabled": true
   }
 }
